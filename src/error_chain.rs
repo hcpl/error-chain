@@ -55,6 +55,8 @@ macro_rules! impl_error_chain_processed {
         }
 
     ) => {
+        extern crate void as _error_chain_void;
+
         /// The Error type.
         ///
         /// This tuple struct is made of two elements:

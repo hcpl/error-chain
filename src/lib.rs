@@ -536,6 +536,8 @@
 //! [`map_err`]: https://doc.rust-lang.org/std/result/enum.Result.html#method.map_err
 //! [`BacktraceFrame`]: https://docs.rs/backtrace/0.3.2/backtrace/struct.BacktraceFrame.html
 
+extern crate void;
+
 use std::error;
 use std::iter::Iterator;
 use std::fmt;
